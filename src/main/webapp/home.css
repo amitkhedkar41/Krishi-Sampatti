@@ -1,0 +1,90 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Inconsolata:wght@200&display=swap');
+.main{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+  background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yMThiYXRjaDUtbmluZy0wN18xLmpwZw.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contain{
+    margin-top: 100px;
+    /* border: 2px solid black; */
+    height: 600px;
+    width: 800px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(109, 147, 121);
+    background-image: url("https://img.freepik.com/free-vector/gradient-monochromatic-abstract-background_52683-74300.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1708560000&semt=ais");
+    background-size: cover;
+}
+.welcome_text{
+    /* margin-top: 30px; */
+    padding-top: 20px;
+    font-size: 25px;
+    color: rgb(52, 63, 36);
+    text-shadow: 0px 0px 10px white;
+    font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    
+}
+.reg{
+    display: flex;
+}
+.div{
+  height: 300px;
+  width: 200px;
+  /* border: 2px solid red; */
+  margin: 40px;
+  box-shadow: 0px 0px 20px black;
+  border-radius: 20px;
+
+} 
+/* .div:hover{
+  cursor: pointer;
+} */
+
+.div1{
+    margin-left: 160px;
+    background-image:url("./i1.png");
+    /* justify-content: bottom; */
+    background-size: cover;
+}
+.div2{
+  background-image: url("./i2.png");
+  background-size: 300px;
+  background-size: cover;
+}
+h2{
+  font-size: 15px;
+  /* text-shadow: 0px 5px 10px white; */
+  font-weight: bolder;
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+a > button{
+  border: none;
+  width: 100%;
+  margin-top: 255px;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(96, 192, 133);
+}
+h5{
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: large;
+}
+button{
+  transition-duration: 1s;
+}
+button:hover{
+  cursor: pointer;
+  scale: 1.1;
+}
